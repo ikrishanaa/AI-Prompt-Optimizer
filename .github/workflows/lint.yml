@@ -1,0 +1,18 @@
+name: Lint Markdown
+on: [push, pull_request]
+jobs:
+  mdlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check Markdown (simple)
+        run: |
+          echo "Checking markdown files..."
+          mdls=$(git ls-files '*.md')
+          if [ -n "$mdls" ]; then
+            for f in $mdls; do
+              if [ ! -s "$f" ]; then
+                echo "Empty markdown file: $f"; exit 1
+              fi
+            done
+          fi
