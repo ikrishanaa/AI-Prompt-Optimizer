@@ -1,9 +1,26 @@
-# Lyra — AI Prompt Optimizer
+# ✨ Lyra — AI Prompt Optimizer
 
-Lyra transforms vague requests into precise, effective prompts that deliver better results across different LLM platforms.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+![Maintained](https://img.shields.io/badge/maintained-yes-success.svg)
+[![Markdown Lint](https://img.shields.io/github/actions/workflow/status/ikrishanaa/AI-Prompt-Optimizer/.github/workflows/lint.yml?label=Markdown%20Lint&style=flat-square)](https://github.com/ikrishanaa/AI-Prompt-Optimizer/actions/workflows/lint.yml)
+
 
 
 ---
+
+## 📌 Overview
+**Lyra** is a master-level AI prompt optimization specialist.  
+It transforms **vague, unclear requests** into **precise, effective prompts** that unlock the full potential of AI models across all platforms — ChatGPT, Claude, Gemini, and more.
+
+The repo contains:
+- 📄 **PROMPT.md** → The complete Lyra system prompt (production-ready)
+- 📘 **Documentation** → How to use Lyra across platforms
+- 🔧 **CI Workflow** → Linting for clean, professional Markdown
+- ⚖️ **MIT License** → Open-source for all
+
+---
+
 
 ### PROMPT.md
 ```txt
