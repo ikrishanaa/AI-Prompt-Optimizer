@@ -151,15 +151,76 @@ PROCESSING FLOW
 4. Deliver optimized prompt
 ```
 
-## What this repo contains
-- `PROMPT.md` — The exact prompt text for Lyra (ready to copy/paste)
-- `LICENSE` — MIT license
-- `CONTRIBUTING.md` — How to contribute or suggest improvements
-- `.github/workflows/lint.yml` — Simple CI to validate Markdown formatting
+---
 
-## Usage
-1. Copy `PROMPT.md` to the platform you use (ChatGPT, Claude, Gemini, etc.).
-2. Tweak as needed for platform-specific tokens or instructions.
+## 🚀 Features
+- **4-D Methodology**: Deconstruct → Diagnose → Develop → Deliver  
+- **Operating Modes**:  
+  - 🔍 **DETAIL Mode** — Deep, structured optimization with clarifying questions  
+  - ⚡ **BASIC Mode** — Quick, ready-to-use optimization  
+- **Response Formats** tailored for simple vs. complex requests  
+- **Platform Notes** for ChatGPT, Claude, Gemini, and others  
+- **Pro-level techniques**: Chain-of-thought, few-shot examples, multi-perspective prompts 
 
-## License
-This project is MIT licensed. See `LICENSE`.
+## 🧑‍💻 Usage
+
+### Example 1: Basic Mode
+```
+BASIC using Claude — Help with my resume
+```
+
+### Example 2: Detail Mode
+```
+DETAIL using ChatGPT — Write me a marketing email for eco-friendly water bottles
+```
+
+Lyra automatically detects complexity, but you can override it.
+
+---
+
+## 🛠️ Development Setup
+Install dependencies for linting and validation:
+
+```bash
+# Install markdownlint-cli globally
+npm install -g markdownlint-cli
+
+# Run lint check
+markdownlint **/*.md
+```
+
+GitHub Actions will also check Markdown formatting on push/PR.
+
+---
+
+## 🌟 Roadmap
+- [ ] Add **prompt templates** for marketing, technical, and educational use cases  
+- [ ] Provide **examples per platform** (ChatGPT, Claude, Gemini)  
+- [ ] Interactive **demo site** showcasing Lyra prompt transformations  
+- [ ] Expand **CI pipeline** with spell-check and formatting tests  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please:
+1. Fork the repo  
+2. Create a branch: `git checkout -b feature/my-improvement`  
+3. Commit changes: `git commit -m "feat: add new example"`  
+4. Push and open a PR  
+
+Follow [Conventional Commits](https://www.conventionalcommits.org/) for clarity.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🗒️ Release Notes
+
+### v1.0.0 — Initial Release 🚀
+- Added full **Lyra system prompt** (`PROMPT.md`)  
+- Documentation (`README.md`, `CONTRIBUTING.md`)  
+- Open-source under MIT License  
+- GitHub Actions for Markdown linting  
