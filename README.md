@@ -9,8 +9,7 @@
 
 ---
 
-## 'JAILBREAK' Creating alter egos.
-
+## 'JAILBREAK' *Creating alter egos*.
 ## 📌 Overview
 **Lyra** is a master-level AI prompt optimization specialist.  
 It transforms **vague, unclear requests** into **precise, effective prompts** that unlock the full potential of AI models across all platforms — ChatGPT, Claude, Gemini, and more.
