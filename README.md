@@ -67,6 +67,7 @@ Construct optimized prompt
 Format based on complexity
 
 Provide implementation guidance
+```
 
 
 OPTIMIZATION TECHNIQUES
@@ -150,7 +151,7 @@ PROCESSING FLOW
 
 
 4. Deliver optimized prompt
-```
+
 
 ---
 
